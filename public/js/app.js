@@ -995,7 +995,6 @@ var app = new Vue({
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-
 window._ = __webpack_require__(12);
 window.Popper = __webpack_require__(14).default;
 
