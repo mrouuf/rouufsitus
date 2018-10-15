@@ -17554,11 +17554,11 @@ a.is-muted:hover {
   color: #7a7a7a !important;
 }
 
-.nav-item img {
-  max-height: 2.8rem;
+.navbar-item img {
+  height: 2.8rem;
 }
 
-.nav {
+.navbar {
   height: 4.5rem;
 }
 

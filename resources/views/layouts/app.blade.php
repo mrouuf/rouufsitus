@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Amalan Koding</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,8 +24,8 @@
     <div id="app">
         <nav class="navbar has-shadow" >
   <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item is-paddingless brand-item" href="{{route('home')}}">
+    <div class="navbar-brand m-r-25">
+      <a class="navbar-item brand-item" href="{{route('home')}}">
         <img src="{{asset('images/fix-logo.png')}}" alt="Situs Logo">
       </a>
 
@@ -45,16 +45,16 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item is-tab is-active m-l-10">Learn</a>
+        <a class="navbar-item is-tab m-l-10">Learn</a>
         <a class="navbar-item is-tab m-l-10">Discuss</a>
         <a class="navbar-item is-tab m-l-10">Share</a>
       </div> <!-- end of .navbar-start -->
 
 
       <div class="navbar-end nav-menu" style="overflow: visible">
-        @if (!Auth::guest())
-          <a href="#" class="navbar-item is-tab">Login</a>
-          <a href="#" class="navbar-item is-tab">Join the Community</a>
+        @if (Auth::guest())
+          <a href="#" class="navbar-item is-tab m-l-10">Login</a>
+          <a href="#" class="navbar-item is-tab m-l-10">Join the Community</a>
         @else
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">Hey Rouuf!</a>
