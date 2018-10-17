@@ -7665,7 +7665,7 @@ a.navbar-item.is-active,
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: #fafafa;
-  color: #3490dc;
+  color: link;
 }
 
 .navbar-item {
@@ -7701,7 +7701,7 @@ a.navbar-item.is-active,
 
 .navbar-item.is-tab:hover {
   background-color: transparent;
-  border-bottom-color: #3490dc;
+  border-bottom-color: turquoise;
 }
 
 .navbar-item.is-tab.is-active {

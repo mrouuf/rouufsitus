@@ -53,8 +53,8 @@
 
       <div class="navbar-end nav-menu" style="overflow: visible">
         @if (Auth::guest())
-          <a href="#" class="navbar-item is-tab m-l-10">Login</a>
-          <a href="#" class="navbar-item is-tab m-l-10">Join the Community</a>
+          <a href="{{route('login')}}" class="navbar-item is-tab m-l-10">Login</a>
+          <a href="{{route('register')}}" class="navbar-item is-tab m-l-10">Join the Community</a>
         @else
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">Hey Rouuf!</a>
