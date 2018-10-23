@@ -1,5 +1,5 @@
 <div class="side-menu" id="admin-side-menu">
-  <aside class="menu m-t-30 m-l-10">
+  <aside class="menu m-t-30 m-l-20">
     <p class="menu-label">
       General
     </p>
