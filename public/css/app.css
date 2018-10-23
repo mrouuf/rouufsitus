@@ -17960,7 +17960,7 @@ a.is-muted:hover {
 .side-menu {
   position: fixed;
   height: 100vh;
-  width: 250px;
+  width: 275px;
   background-color: white;
   overflow-y: scroll;
 }
