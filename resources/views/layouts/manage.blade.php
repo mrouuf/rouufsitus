@@ -23,6 +23,7 @@
 <body>
     <div id="app">
     @include('_includes.nav.nav')
+    @include('_includes.nav.managenav')
 
         <main class="py-4">
             @yield('content')
