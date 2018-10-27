@@ -39,6 +39,7 @@
           </table>
         </div>
       </div> <!-- end of .card -->
-{{$users->links()}}
+
+      {{$users->links()}}
     </div>
 @endsection
