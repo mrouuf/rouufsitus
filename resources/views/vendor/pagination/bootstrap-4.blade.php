@@ -1,6 +1,6 @@
 @if ($paginator->hasPages())
     <div class="pagination-wrapper m-t-20">
-      <nav class="pagination is-centered">
+      <nav class="pagination is-right">
         {{-- Previous Page Link --}}
         @if ($paginator->onFirstPage())
           <a class="pagination-previous" disabled>&laquo;</a>
