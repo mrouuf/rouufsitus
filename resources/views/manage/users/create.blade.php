@@ -49,7 +49,7 @@
       <div class="columns">
         <div class="column">
           <hr />
-          <button class="button is-primary is-rounded" style="width: 200px;">Create New User</button>
+          <button class="button is-primary is-rounded" style="width: 250px;">Create New User</button>
         </div>
       </div>
     </form>
